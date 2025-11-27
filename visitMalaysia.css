@@ -1,0 +1,284 @@
+body {
+    font-family: Garamond, serif;
+    text-align: center;
+}
+
+header {
+    background-color: #ffccdd;
+    padding: 20px;
+    color: #3b3da2;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #3b3da2;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+nav {
+    background-color: #3780da;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: rgb(249, 89, 223);
+    text-decoration: underline;
+}
+
+main.overlay-text{
+    font-size: 27px;
+    background-color: rgba(255, 255, 255, 0.596);
+    color: darkred;
+    padding: 14px;
+    display: inline-block;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+p{
+    color: black;
+}
+
+h2 {
+    color: darkred;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+    
+}
+
+img.main {
+    width: 300px;
+    height: 200px;
+    border: 5px solid #662a31;
+    margin: 10px;
+    padding: 5px;
+}
+
+.states {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  
+  .state-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding-bottom: 20px;
+  }
+  
+  .state-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .state-card img {
+    width: 85%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .state-card h2 {
+    margin: 15px 0 10px;
+    color: #0d6efd;
+    font-size: 30px;
+  }
+  
+  .state-card p {
+    padding: 0 10px;
+    color: #333;
+    font-size: 23px;
+  }
+
+  table {
+    width: 85%;
+    background-color:#fca5b375;
+    border: 5px solid #743b42;
+    font-size: 25px;
+}
+
+td {
+    border: 2px solid #743b42;
+    padding: 8px;
+    text-align: left;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+img.focused{
+    width: 1300px;
+    height: 600px;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+
+p.overlay-text{
+    font-size: 25px;
+    background-color: rgba(253, 253, 253, 0.596);
+    color: maroon;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+p4.overlay-text{
+    font-size: 27px;
+    background-color: rgba(255, 255, 255, 0.642);
+    color: maroon;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+ul.overlay-text{
+    font-size: 27px;
+    color: rgb(47, 16, 16);
+    background-color: rgba(253, 253, 253, 0.596);
+    color: maroon;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+p2 {
+    color: rgb(47, 16, 16);
+}
+
+p2.decor{
+    color: rgb(0, 0, 0);
+}
+
+div.gallery {
+    margin: 10px;
+    border: 10px solid rgb(221, 70, 120);
+    width: 200px;
+    display: inline-block; 
+    vertical-align: top; 
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    display : block;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+main {
+    padding: 20px;
+}
+
+h2.overlay-text{
+    font-size: 27px;
+    background-color: rgba(255, 255, 255, 0.596);
+    color: darkred;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+h2.overlay-text{
+    font-size: 27px;
+    background-color: rgba(255, 255, 255, 0.596);
+    color: darkred;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+main p{
+    color: black;
+    font-size: 22px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3780da;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(249, 89, 223);
+}
+
+iframe {
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #3780da;
+    padding: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+}
